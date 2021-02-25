@@ -1,11 +1,16 @@
 .card-container {
-    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 12rem;
 }
 
 .card-image {
     margin: 1rem;
 }
 
-.card-text {
+.card-text, .card-title {
     margin: 0 1rem 1rem 1rem;
+}
+
+.card-title {
+    line-height: 0;
 }
