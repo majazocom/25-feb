@@ -1,0 +1,11 @@
+.card-container {
+    border: 1px solid black;
+}
+
+.card-image {
+    margin: 1rem;
+}
+
+.card-text {
+    margin: 0 1rem 1rem 1rem;
+}
